@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 5;
+}
+
+.header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.age-image {
+    max-width: 60%;
+}
+
+.age-verification {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+#yesBtn {
+    background-color: #28a745; /* зеленый цвет для кнопки YES */
+    color: #fff; /* белый текст */
+}
+
+#yesBtn:hover {
+    background-color: #218838; /* темнозеленый при наведении */
+}
+
+#noBtn {
+    background-color: #dc3545; /* красный цвет для кнопки NO */
+    color: #fff; /* белый текст */
+}
+
+#noBtn:hover {
+    background-color: #c82333; /* темнокрасный при наведении */
+}
